@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <script src="./readme.md"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1> Student Registration Form</h1>
+    <form action="">
+        <label for="">Full Name:</label>
+        <br>
+        <input type="text" placeholder="Enter your name" required>
+
+        <br><br>
+
+        <label for="">Email:</label>
+        <br>
+        <input type="email" placeholder="Enter your email" required >
+
+        <br><br>
+
+        <label for="">Password:</label>
+        <br>
+        <input type="password" required>
+
+        <br>
+
+        <p>Gender:   
+        <br>
+        <input type="radio" name="gender" id="male" required>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" required>
+        <label for="female">Female</label>    </p>
+
+        <p>Skills:  
+        <br>  
+        <input type="checkbox" name="skills" id="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" name="skills" id="css" >
+        <label for="css">CSS</label>
+        <input type="checkbox" name="skills" id="javascript" >
+        <label for="javascript">JavaScript </label>   </p>
+        
+        <label for="">Date of Birth:</label>
+        <br>
+        <input type="date" required>
+        <br><br>
+        <button type="submit">Register</button>
+    </form>
+
+
+        <hr>
+
+        <h2>Submitted Students (Dummy Data)</h2>
+
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Skills</th>
+                <th>DOB</th>
+
+            </tr>
+            <tr>
+                <td>Alice</td>
+                <td>alice@example.com</td>
+                <td>Female</td>
+                <td>HTML,CSS</td>
+                <td>2002-05-10</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>bob@example.com</td>
+                <td>Male</td>
+                <td>JavaScript</td>
+                <td>2001-11-22</td>
+            </tr>
+
+        </table>
+
+    
+
+</body>
+
+</html>
